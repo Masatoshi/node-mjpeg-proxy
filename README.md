@@ -1,7 +1,9 @@
 node-mjpeg-proxy
 ================
 
-A node.js module to proxy MJPEG requests. Supports multiple client consuming a single stream. Fixes an iOS 6 issue with some MJPEG steams.
+A node.js module to proxy MJPEG requests. Supports multiple client consuming a single stream.
+Forked to use embeded node.js like Cordova plathome.
+buffertools requires to be build with node-gyp. native .node files depend on plathome.
 
 Installation
 ------------
@@ -15,7 +17,7 @@ $ npm install mjpeg-proxy
 From source:
 
 ``` bash
-$ git clone https://github.com/legege/node-mjpeg-proxy.git
+$ git clone https://github.com/Masatoshi/node-mjpeg-proxy.git
 $ cd node-mjpeg-proxy
 $ npm install
 ```
